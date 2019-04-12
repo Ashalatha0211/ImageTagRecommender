@@ -1,0 +1,9 @@
+vertbrate
+crocodile
+green
+water
+reptile
+animal
+carnivore
+yellow
+cold-blood

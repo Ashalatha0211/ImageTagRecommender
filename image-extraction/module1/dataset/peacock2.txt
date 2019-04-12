@@ -1,0 +1,7 @@
+animal
+vertebrate
+warm-blood
+peacock
+herbivore
+pretty
+fly

@@ -1,0 +1,8 @@
+carnivore
+animal
+vertebrate
+warm-blood
+mammal
+bear
+brown
+yellow

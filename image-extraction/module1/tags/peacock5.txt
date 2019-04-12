@@ -1,0 +1,9 @@
+animal
+vertebrate
+warm-blood
+peacock
+herbivore
+pretty
+beautiful
+green
+blue

@@ -1,0 +1,5 @@
+animal
+vertebrate
+warm-blood
+mammal
+monkey

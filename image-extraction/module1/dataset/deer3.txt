@@ -1,0 +1,8 @@
+animal
+deer
+vertebrate
+warm-blood
+animals
+red
+black
+herbivore

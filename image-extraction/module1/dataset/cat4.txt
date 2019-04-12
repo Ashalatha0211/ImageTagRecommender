@@ -1,0 +1,8 @@
+cat 
+warm-blood
+mammal
+tassel
+eyes
+vertebrate
+animal
+feline

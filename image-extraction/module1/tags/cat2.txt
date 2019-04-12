@@ -1,0 +1,8 @@
+cat 
+warm-blood
+mammal
+vertebrate
+animal
+feline
+beauty
+love

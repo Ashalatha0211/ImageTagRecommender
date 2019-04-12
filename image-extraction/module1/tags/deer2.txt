@@ -1,0 +1,9 @@
+animal
+deer
+vertebrate
+warm-blood
+run
+forest
+green
+brown
+herbivore

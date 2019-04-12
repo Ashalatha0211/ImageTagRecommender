@@ -1,0 +1,9 @@
+mammal
+animal
+vertebrate
+warm-blood
+grey
+lazy
+dry
+slow
+ass

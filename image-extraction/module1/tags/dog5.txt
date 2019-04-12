@@ -1,0 +1,8 @@
+dog
+animal
+vertebrate
+warm-blood
+mammal
+cute
+puppy
+adorable

@@ -1,0 +1,7 @@
+animal
+vertebrate
+warm-blood
+lion
+mammal
+mane
+ferocious

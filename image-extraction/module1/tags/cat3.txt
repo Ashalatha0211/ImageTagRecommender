@@ -1,0 +1,8 @@
+cat 
+warm-blood
+mammal
+family
+pet
+vertebrate
+animal
+

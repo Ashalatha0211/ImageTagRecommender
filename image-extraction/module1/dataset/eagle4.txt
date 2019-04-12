@@ -1,0 +1,8 @@
+bird
+eagle
+animal
+warm-blood
+carnivore
+vertebrate
+hunt
+prey

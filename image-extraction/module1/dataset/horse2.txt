@@ -1,0 +1,7 @@
+animal
+vertebrate
+warm-blood
+mammal 
+horse
+brown
+beautiful

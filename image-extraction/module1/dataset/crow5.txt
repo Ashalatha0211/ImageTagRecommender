@@ -1,0 +1,8 @@
+animal	
+vertebrate
+bird
+warm-blood
+crow
+fly
+black
+building

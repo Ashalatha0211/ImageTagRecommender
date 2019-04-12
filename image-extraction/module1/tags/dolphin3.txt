@@ -1,0 +1,8 @@
+dolphin
+animal
+vertebrate
+warm-blood
+mammal
+grey
+play
+friend

@@ -1,0 +1,7 @@
+animal
+vertebrate
+cold-blood
+amphibian
+frog
+green
+swim

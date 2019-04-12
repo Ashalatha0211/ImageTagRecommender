@@ -1,0 +1,10 @@
+hen 
+animal
+bird
+warm-blood
+vertebrate
+white
+herbivore
+egg
+chick
+penn

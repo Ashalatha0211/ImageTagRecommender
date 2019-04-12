@@ -1,0 +1,9 @@
+vertebrate
+north
+bear 
+brown
+carnivore
+animal
+blue
+mammal
+warm-blood

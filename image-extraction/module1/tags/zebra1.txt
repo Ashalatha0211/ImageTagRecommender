@@ -1,0 +1,7 @@
+animal
+warm-blood
+vertebrate
+mammal
+zebra
+black
+white

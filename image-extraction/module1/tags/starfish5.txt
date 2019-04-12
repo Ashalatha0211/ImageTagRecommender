@@ -1,0 +1,9 @@
+animal
+vertebrate
+cold-blood
+starfish
+fish
+orange
+red
+water
+sea

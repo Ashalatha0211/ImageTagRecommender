@@ -1,0 +1,6 @@
+animal
+invertebrate
+without-legs
+jellyfish
+swim
+sea

@@ -1,0 +1,7 @@
+animal
+vertebrate
+warm-blood
+bird
+penguin
+cold
+ice

@@ -1,0 +1,9 @@
+vertebrate
+grass
+bear
+animal
+brown
+green
+warm-blood
+mammal
+carnivore

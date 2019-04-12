@@ -1,0 +1,10 @@
+vertbrate
+crocodile
+green
+drink
+carnivore
+eat
+water
+reptile
+animal
+cold-blood

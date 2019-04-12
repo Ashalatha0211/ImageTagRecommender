@@ -1,0 +1,8 @@
+animal
+vertebrate
+warm-blood
+bird
+ostrich
+black
+color
+run

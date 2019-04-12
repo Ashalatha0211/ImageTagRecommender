@@ -1,0 +1,8 @@
+animal
+vertebrate
+warm-blood
+lion
+mammal
+beauty
+jungle
+king

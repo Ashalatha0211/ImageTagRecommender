@@ -1,0 +1,11 @@
+cow 
+mammal
+vertebrate
+warm-blood
+milk
+dairy
+grass
+fun
+health
+animal
+fodder

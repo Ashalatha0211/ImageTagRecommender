@@ -1,0 +1,8 @@
+mammal
+animal
+vertebrate
+warm-blood
+grey
+lazy
+sack
+salt

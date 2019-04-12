@@ -1,0 +1,7 @@
+animal
+vertebrate
+warm-blood
+bird
+ostrich
+fast
+egg

@@ -1,0 +1,9 @@
+animal
+cow 
+mammal
+vertebrate
+warm-blood
+milk
+dairy
+grass
+fodder

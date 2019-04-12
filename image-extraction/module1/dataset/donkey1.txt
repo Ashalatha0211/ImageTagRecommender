@@ -1,0 +1,6 @@
+mammal
+animal
+vertebrate
+warm-blood
+grey
+lazy

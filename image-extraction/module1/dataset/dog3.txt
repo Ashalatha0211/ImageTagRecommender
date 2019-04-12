@@ -1,0 +1,9 @@
+dog
+animal
+vertebrate
+warm-blood
+mammal
+cute
+pet
+brown
+cute

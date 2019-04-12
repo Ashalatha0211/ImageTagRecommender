@@ -1,0 +1,9 @@
+animal
+vertebrate
+warm-blood
+mammal 
+horse
+brown
+two
+white
+mane

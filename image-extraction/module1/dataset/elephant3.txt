@@ -1,0 +1,7 @@
+elephant
+mammal
+warm-blood
+animal
+vertebrate
+grey
+cute

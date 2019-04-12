@@ -1,0 +1,9 @@
+animal
+vertebrate
+warm-blood
+mammal
+polarbear
+snow
+ice
+cold
+fur

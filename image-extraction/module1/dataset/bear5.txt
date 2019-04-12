@@ -1,0 +1,8 @@
+vertebrate
+blast
+bear 
+brown
+carnivore
+animal
+mammal
+warm-blood

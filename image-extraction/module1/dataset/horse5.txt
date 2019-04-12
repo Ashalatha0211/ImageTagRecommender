@@ -1,0 +1,9 @@
+animal
+vertebrate
+warm-blood
+mammal 
+horse
+brown
+run
+fast
+herbivore

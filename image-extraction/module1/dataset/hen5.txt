@@ -1,0 +1,9 @@
+hen 
+animal
+bird
+warm-blood
+vertebrate
+white
+fly
+egg
+dairy

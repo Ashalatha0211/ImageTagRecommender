@@ -1,0 +1,8 @@
+warm-blood
+animal	
+vertebrate
+bird
+fly
+crow
+black
+warm-blood

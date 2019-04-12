@@ -1,0 +1,6 @@
+animal
+warm-blood
+vertebrate
+mammal
+zebra
+grass

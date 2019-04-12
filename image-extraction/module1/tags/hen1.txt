@@ -1,0 +1,6 @@
+hen 
+animal
+bird
+warm-blood
+vertebrate
+white
