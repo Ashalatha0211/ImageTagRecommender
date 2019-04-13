@@ -1,0 +1,1195 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/devithesweetest/ontologies/2019/3/untitled-ontology-3"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/devithesweetest/ontologies/2019/3/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AnimalKingdom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amphibians"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#annelids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aquatic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#arthopods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#birds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#carnivore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cold_blooded"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#echinoderms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#herbivore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#invertebrates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mammals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mollusks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#omnivore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#protozoans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reptiles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vertebrates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#warm_blooded"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amoeba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amphiuma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#boas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#caecillian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#clam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crocodile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#deer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#diplocaulus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dog"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dolphin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#donkey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ducks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eagle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#earthworm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#elephant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#frog"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#goldfish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#horse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iguanas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#leech"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lizards"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lobster"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mouse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#octopi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ostrich"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paramecia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#peacock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penguin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pigeons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#polarbear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#salamander"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sea_urchins"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seacucumber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seagull"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#snail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#snakes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spider"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#squid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#starfish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tiger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turtles"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#amphibians"/>
+        <Class IRI="#cold_blooded"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#annelids"/>
+        <Class IRI="#invertebrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aquatic"/>
+        <Class IRI="#cold_blooded"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arthopods"/>
+        <Class IRI="#invertebrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#birds"/>
+        <Class IRI="#warm_blooded"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carnivore"/>
+        <Class IRI="#type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cold_blooded"/>
+        <Class IRI="#vertebrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#echinoderms"/>
+        <Class IRI="#invertebrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#herbivore"/>
+        <Class IRI="#type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#invertebrates"/>
+        <Class IRI="#AnimalKingdom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mammals"/>
+        <Class IRI="#warm_blooded"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mollusks"/>
+        <Class IRI="#invertebrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#omnivore"/>
+        <Class IRI="#type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#protozoans"/>
+        <Class IRI="#invertebrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reptiles"/>
+        <Class IRI="#cold_blooded"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vertebrates"/>
+        <Class IRI="#AnimalKingdom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#warm_blooded"/>
+        <Class IRI="#vertebrates"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#amphibians"/>
+        <Class IRI="#aquatic"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#amphibians"/>
+        <Class IRI="#reptiles"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#aquatic"/>
+        <Class IRI="#reptiles"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#birds"/>
+        <Class IRI="#mammals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#invertebrates"/>
+        <Class IRI="#vertebrates"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#amoeba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#herbivore"/>
+        <NamedIndividual IRI="#amoeba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#invertebrates"/>
+        <NamedIndividual IRI="#amoeba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#protozoans"/>
+        <NamedIndividual IRI="#amoeba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#amphiuma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amphibians"/>
+        <NamedIndividual IRI="#amphiuma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cold_blooded"/>
+        <NamedIndividual IRI="#amphiuma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#herbivore"/>
+        <NamedIndividual IRI="#amphiuma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#amphiuma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#bear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#herbivore"/>
+        <NamedIndividual IRI="#bear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mammals"/>
+        <NamedIndividual IRI="#bear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#bear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#bear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#boas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#boas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cold_blooded"/>
+        <NamedIndividual IRI="#boas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#reptiles"/>
+        <NamedIndividual IRI="#boas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#boas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#caecillian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amphibians"/>
+        <NamedIndividual IRI="#caecillian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cold_blooded"/>
+        <NamedIndividual IRI="#caecillian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#caecillian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#caecillian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#cat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mammals"/>
+        <NamedIndividual IRI="#cat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#cat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#cat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#cat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#clam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#invertebrates"/>
+        <NamedIndividual IRI="#clam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mollusks"/>
+        <NamedIndividual IRI="#clam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#clam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#crab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arthopods"/>
+        <NamedIndividual IRI="#crab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#crab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#invertebrates"/>
+        <NamedIndividual IRI="#crab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#crocodile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#crocodile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cold_blooded"/>
+        <NamedIndividual IRI="#crocodile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#reptiles"/>
+        <NamedIndividual IRI="#crocodile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#crocodile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#crow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#birds"/>
+        <NamedIndividual IRI="#crow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#crow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#crow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#crow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#deer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#herbivore"/>
+        <NamedIndividual IRI="#deer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mammals"/>
+        <NamedIndividual IRI="#deer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#deer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#deer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#diplocaulus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amphibians"/>
+        <NamedIndividual IRI="#diplocaulus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cold_blooded"/>
+        <NamedIndividual IRI="#diplocaulus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#herbivore"/>
+        <NamedIndividual IRI="#diplocaulus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#diplocaulus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#dog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mammals"/>
+        <NamedIndividual IRI="#dog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#dog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#dog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#dog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#dolphin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#dolphin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mammals"/>
+        <NamedIndividual IRI="#dolphin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#dolphin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#dolphin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#donkey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#herbivore"/>
+        <NamedIndividual IRI="#donkey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mammals"/>
+        <NamedIndividual IRI="#donkey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#donkey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#donkey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#ducks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#birds"/>
+        <NamedIndividual IRI="#ducks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#ducks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#ducks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#ducks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#eagle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#birds"/>
+        <NamedIndividual IRI="#eagle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#eagle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#eagle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#eagle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#earthworm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#annelids"/>
+        <NamedIndividual IRI="#earthworm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#invertebrates"/>
+        <NamedIndividual IRI="#earthworm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#earthworm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#elephant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#herbivore"/>
+        <NamedIndividual IRI="#elephant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mammals"/>
+        <NamedIndividual IRI="#elephant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#elephant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#elephant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#frog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amphibians"/>
+        <NamedIndividual IRI="#frog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#frog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cold_blooded"/>
+        <NamedIndividual IRI="#frog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#frog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#goldfish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aquatic"/>
+        <NamedIndividual IRI="#goldfish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cold_blooded"/>
+        <NamedIndividual IRI="#goldfish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#goldfish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#goldfish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#hen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#birds"/>
+        <NamedIndividual IRI="#hen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#hen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#hen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#hen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#horse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#herbivore"/>
+        <NamedIndividual IRI="#horse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mammals"/>
+        <NamedIndividual IRI="#horse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#horse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#horse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#iguanas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cold_blooded"/>
+        <NamedIndividual IRI="#iguanas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#herbivore"/>
+        <NamedIndividual IRI="#iguanas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#reptiles"/>
+        <NamedIndividual IRI="#iguanas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#iguanas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#leech"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#annelids"/>
+        <NamedIndividual IRI="#leech"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#leech"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#invertebrates"/>
+        <NamedIndividual IRI="#leech"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#lion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#lion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mammals"/>
+        <NamedIndividual IRI="#lion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#lion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#lion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#lizards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#lizards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cold_blooded"/>
+        <NamedIndividual IRI="#lizards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#reptiles"/>
+        <NamedIndividual IRI="#lizards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#lizards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#lobster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arthopods"/>
+        <NamedIndividual IRI="#lobster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#lobster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#invertebrates"/>
+        <NamedIndividual IRI="#lobster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#mouse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mammals"/>
+        <NamedIndividual IRI="#mouse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#mouse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#mouse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#mouse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#octopi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#octopi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#invertebrates"/>
+        <NamedIndividual IRI="#octopi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mollusks"/>
+        <NamedIndividual IRI="#octopi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#ostrich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#birds"/>
+        <NamedIndividual IRI="#ostrich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#ostrich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#ostrich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#ostrich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#paramecia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#invertebrates"/>
+        <NamedIndividual IRI="#paramecia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#paramecia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#protozoans"/>
+        <NamedIndividual IRI="#paramecia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#peacock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#birds"/>
+        <NamedIndividual IRI="#peacock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#peacock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#peacock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#peacock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#penguin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#birds"/>
+        <NamedIndividual IRI="#penguin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#penguin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#penguin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#penguin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#pigeons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#birds"/>
+        <NamedIndividual IRI="#pigeons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#pigeons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#pigeons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#pigeons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#polarbear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#polarbear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mammals"/>
+        <NamedIndividual IRI="#polarbear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#polarbear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#polarbear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#salamander"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amphibians"/>
+        <NamedIndividual IRI="#salamander"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#salamander"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cold_blooded"/>
+        <NamedIndividual IRI="#salamander"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#salamander"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#sea_urchins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#sea_urchins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#echinoderms"/>
+        <NamedIndividual IRI="#sea_urchins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#invertebrates"/>
+        <NamedIndividual IRI="#sea_urchins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#seacucumber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#seacucumber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#echinoderms"/>
+        <NamedIndividual IRI="#seacucumber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#invertebrates"/>
+        <NamedIndividual IRI="#seacucumber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#seagull"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#birds"/>
+        <NamedIndividual IRI="#seagull"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#seagull"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#seagull"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#seagull"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#snail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#invertebrates"/>
+        <NamedIndividual IRI="#snail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mollusks"/>
+        <NamedIndividual IRI="#snail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#snail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#snakes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#snakes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cold_blooded"/>
+        <NamedIndividual IRI="#snakes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#reptiles"/>
+        <NamedIndividual IRI="#snakes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#snakes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#spider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arthopods"/>
+        <NamedIndividual IRI="#spider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#invertebrates"/>
+        <NamedIndividual IRI="#spider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#spider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#squid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#invertebrates"/>
+        <NamedIndividual IRI="#squid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mollusks"/>
+        <NamedIndividual IRI="#squid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#squid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#starfish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#echinoderms"/>
+        <NamedIndividual IRI="#starfish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#invertebrates"/>
+        <NamedIndividual IRI="#starfish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#starfish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#tiger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carnivore"/>
+        <NamedIndividual IRI="#tiger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mammals"/>
+        <NamedIndividual IRI="#tiger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vertebrates"/>
+        <NamedIndividual IRI="#tiger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#warm_blooded"/>
+        <NamedIndividual IRI="#tiger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnimalKingdom"/>
+        <NamedIndividual IRI="#turtles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arthopods"/>
+        <NamedIndividual IRI="#turtles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#invertebrates"/>
+        <NamedIndividual IRI="#turtles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#omnivore"/>
+        <NamedIndividual IRI="#turtles"/>
+    </ClassAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
