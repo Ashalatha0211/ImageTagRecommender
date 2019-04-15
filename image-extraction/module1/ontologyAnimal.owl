@@ -16,10 +16,11 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      ontologyIRI="http://www.semanticweb.org/user/ontologies/2019/3/untitled-ontology-8">
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
         <Class IRI="#bear"/>
     </Declaration>
@@ -162,11 +163,67 @@
         <NamedIndividual IRI="#animal"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#crow"/>
+        <NamedIndividual IRI="#bird"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#eagle"/>
+        <NamedIndividual IRI="#bird"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hen"/>
+        <NamedIndividual IRI="#bird"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ostrich"/>
+        <NamedIndividual IRI="#bird"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#peacock"/>
         <NamedIndividual IRI="#bird"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#penguin"/>
+        <NamedIndividual IRI="#bird"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#crocodile"/>
+        <NamedIndividual IRI="#coldblooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#frog"/>
+        <NamedIndividual IRI="#coldblooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#goldfish"/>
+        <NamedIndividual IRI="#coldblooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#jellyfish"/>
+        <NamedIndividual IRI="#coldblooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#starfish"/>
+        <NamedIndividual IRI="#coldblooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#jellyfish"/>
+        <NamedIndividual IRI="#invertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bear"/>
+        <NamedIndividual IRI="#mammal"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#cat"/>
+        <NamedIndividual IRI="#mammal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cow"/>
+        <NamedIndividual IRI="#mammal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#deer"/>
         <NamedIndividual IRI="#mammal"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -174,7 +231,67 @@
         <NamedIndividual IRI="#mammal"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#dolphin"/>
+        <NamedIndividual IRI="#mammal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#donkey"/>
+        <NamedIndividual IRI="#mammal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elephant"/>
+        <NamedIndividual IRI="#mammal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#horse"/>
+        <NamedIndividual IRI="#mammal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#leopard"/>
+        <NamedIndividual IRI="#mammal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#lion"/>
+        <NamedIndividual IRI="#mammal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#monkey"/>
+        <NamedIndividual IRI="#mammal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#polarbear"/>
+        <NamedIndividual IRI="#mammal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tiger"/>
+        <NamedIndividual IRI="#mammal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#zebra"/>
+        <NamedIndividual IRI="#mammal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bear"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#cat"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cow"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#crocodile"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#crow"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#deer"/>
         <NamedIndividual IRI="#vertebrates"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -182,11 +299,95 @@
         <NamedIndividual IRI="#vertebrates"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#dolphin"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#donkey"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#eagle"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elephant"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#frog"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#goldfish"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hen"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#horse"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#leopard"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#lion"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#monkey"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ostrich"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#peacock"/>
         <NamedIndividual IRI="#vertebrates"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#penguin"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#polarbear"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#starfish"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tiger"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#zebra"/>
+        <NamedIndividual IRI="#vertebrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bear"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#cat"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cow"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#crow"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#deer"/>
         <NamedIndividual IRI="#warmBlooded"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -194,7 +395,67 @@
         <NamedIndividual IRI="#warmBlooded"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#dolphin"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#donkey"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#eagle"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#elephant"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#frog"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hen"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#horse"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#leopard"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#lion"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#monkey"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ostrich"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#peacock"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penguin"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#polarbear"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tiger"/>
+        <NamedIndividual IRI="#warmBlooded"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#zebra"/>
         <NamedIndividual IRI="#warmBlooded"/>
     </ClassAssertion>
 </Ontology>
